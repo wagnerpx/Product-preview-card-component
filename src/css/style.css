@@ -98,3 +98,5 @@ main{
     margin-right: 7px;
     display: inline-block;
 }
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
