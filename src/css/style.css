@@ -1,3 +1,100 @@
 body{
     font-size: 14px;
 }
+main{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    padding: 240px 520px;
+    justify-content: center;
+    align-self: center;
+    background-color: #F7F1EB;
+}
+.container{
+    display: flex;
+    background-color: var(--White);
+    border-radius: 0px 10px 10px 10px;
+}
+.container .imagem{
+    width: 300px;
+    height: 450px;
+    border-radius: 10px 0px 0px 10px;
+}
+.container .advertising{
+    width: 300px;
+}
+.advertising .title{
+    font-family: var(--Montserrat);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 33px;
+    margin-left: 30px;
+}
+.advertising .descricao{
+    font-family: var(--Fraunces);
+    text-transform: capitalize;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 18px;
+    margin-left: 30px;
+    width: 240px;
+    height: 120px;
+    line-height: 34px;
+}
+.advertising .about{
+    font-family: var(--Montserrat);
+    font-weight: 500;
+    margin-top: 5px;
+    margin-left: 30px;
+    width: 240px;
+    line-height: 23px;
+    color: var(--Dark-grayish-blue);
+}
+.container .advertising .desconto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.desconto .promotional-price{
+    font-family: var(--Fraunces);
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-left: 30px;
+    color: var(--Dark-cyan);
+}
+.desconto .price{
+    font-family: var(--Montserrat);
+    text-decoration: line-through;
+    font-weight: 500;
+    margin-top: 25px;
+    margin-right: 70px;
+    color: var(--Dark-grayish-blue);
+}
+.container .btn{
+    display: flex;
+    width: 235px;
+    height: 50px;
+    border-radius: 10px;
+    color: var(--White);
+    background-color: var(--Dark-cyan);
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 30px;
+    margin-top: 28px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.container .btn::before{
+    content: '';
+    background: var(--Dark-cyan) url(/images/icon-cart.svg) no-repeat center;
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 7px;
+    display: inline-block;
+}
